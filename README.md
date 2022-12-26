@@ -19,10 +19,20 @@
     . It cann't read/write files on hardisk, copy them or execute programs.
     . JavaScript can easily communicate over the net to the server where the current page came from. But its ability to receive data from other sites/domains is crippled. Though possible, it requires explicit agreement (expressed in HTTP headers) from the remote side.Once again, that’s a safety limitation.
 ## JavaScript Fundamental
-1. Variable
-2. Data Types
-3. Type Conversion
-4. Basic Operators
-5. Conditional Branching
-6. Logical Operators
-7. Loops
+1. #### Variable
+    Variable are used to store the value in any programming language. Let keyword is used to create the variable. Variable name should not contain any reserved keyword and start with number.
+2. #### Data Types
+    Javascript has following data types:
+    i. null
+    ii. undefined
+    iii. number
+    iv. bigint
+    v. string
+    vi. boolean
+    vii. symbol
+    viii. object
+3. #### Type Conversion
+4. #### Basic Operators
+5. #### Conditional Branching
+6. #### Logical Operators
+7. #### Loops
