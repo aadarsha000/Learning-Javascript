@@ -1,12 +1,12 @@
 # Learning-Javascript
 # Day-1
 ## Introduction to Javascript
-1. What is JavaScript?
+1. ####What is JavaScript?
     JavaScript is a programming language initially designed to add interact with element of web pages.
     It consists of three part :
-        1. ECMASCRIPT
-        2. DOM( Document Object Model) provides interface to interact with element on web pages.
-        3. BOM(Browser Object Model ) provides the browser API for interaction with the web browser.
+    1. ECMASCRIPT
+    2. DOM( Document Object Model) provides interface to interact with element on web pages.
+    3. BOM(Browser Object Model ) provides the browser API for interaction with the web browser.
 
 2. What can in-browser JavaScript do?
     In-browser JavaScript is able to: 
