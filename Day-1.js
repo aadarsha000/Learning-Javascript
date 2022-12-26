@@ -20,3 +20,49 @@
 //    But its ability to receive data from other sites/domains is crippled. 
 //    Though possible, it requires explicit agreement (expressed in HTTP headers) from the remote side.
 //    Once again, that’s a safety limitation.
+
+// JavaScript Fundamental:
+
+// 1. Variable
+// let key word is used to create variable
+let msg = 'Hello programmer';
+alert(msg)
+msg = 'how are you' // changing value of variable
+alert(msg)
+
+// 2. Data types
+//i. null (It’s just a special value which represents “nothing”, “empty” or “value unknown”.)
+let age = null
+
+// ii. Undefined (If a variable is declared, but not assigned, then its value is undefined)
+let money;
+alert(money)
+
+// iii. Number
+let cash = 123456776543;
+
+// iv. BigInt
+const bigInt = 1234567890123456789012345678901234567890n;
+
+// v. String
+let name = 'Itachi'
+
+// vi. boolean (it has two value true and false)
+let is_male = true
+let is_old = false
+
+// vii. Symbol (The symbol type is used to create unique identifiers for objects)
+
+// viii. Object
+let person = {
+    'name' : 'Uchiha',
+    'age' : 22,
+    'gender' : 'male',
+    'alive' : true
+}
+alert('progrmmer detail')
+alert(person.name)
+alert(person.age)
+alert(person.gender)
+alert(person.alive)
+
