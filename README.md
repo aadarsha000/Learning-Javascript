@@ -48,6 +48,6 @@
     iv. Assignment Operators
     v. Conditional Operators
     vi. Ternary Operator
+    vii. Nullish coalescing operator '??'
 5. #### Conditional Branching
-6. #### Logical Operators
-7. #### Loops
+6. #### Loops
