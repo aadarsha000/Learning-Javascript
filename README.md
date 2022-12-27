@@ -53,3 +53,8 @@
     vii. Nullish coalescing operator '??'
 5. #### Conditional Branching
 6. #### Loops
+
+# Day-2
+
+7. #### Function
+    Functions are the main “building blocks” of the program. They allow the code to be called many times without repetition.
