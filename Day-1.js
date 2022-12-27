@@ -85,3 +85,53 @@ a-- // decrement
 c = ++a
 d = b++
 console.log(c,d)
+
+// operator in javascript
+// Arithmetic Operators
+    // Addition operator(+)
+    let sum = 10+20;
+    console.log(sum)
+    //Subtraction operator (-)
+    let diff = 20-10
+    console.log(diff)
+    //Multiplication operator (*)
+    let mul = 2*5
+    console.log(mul)
+    //Divide operator (/)
+    let div = 20/10
+    console.log(div)
+// Comparison Operators
+    // <, >, ==, <=, >=, ===
+    console.log("2"==2)// true as == covert "2" to number
+    console.log(null==undefined) // true
+    console.log(null===undefined)// false as === doesnt convert but check data type too
+    console.log(Boolean("")) // false
+    console.log(Boolean("0")) // True
+// Logical Operators
+    // javaScript provides three logical operators:
+    // ! (Logical NOT)
+    // || (Logical OR)
+    // && (Logical AND)
+// Assignment Operators
+    // Use the assignment operator (=) to assign a value to a variable.
+    let x = 5, y = 10, z = 15;
+
+    x = y; //x would be 10
+
+    x += 1; //x would be 6
+
+    x -= 1; //x would be 4
+
+    x *= 5; //x would be 25
+
+    x /= 5; //x would be 1
+
+    x %= 2; //x would be 1
+// Conditional Operators
+// Ternary Operator
+    //syntax = <condition> ? <value1> : <value2>;
+let a = 10, b = 5;
+
+let c = a > b? a : b; // value of c would be 10
+let d = a > b? b : a; // value of d would be 5
+
