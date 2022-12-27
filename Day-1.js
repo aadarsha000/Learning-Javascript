@@ -82,9 +82,9 @@ let ba=1;
 aa++ // increment
 aa-- // decrement
 
-c = ++aa
-d = ba++
-console.log(c,d)
+bc = ++aa
+ad = ba++
+console.log(bc,ad)
 
 // operator in javascript
 // Arithmetic Operators
@@ -135,3 +135,37 @@ let a = 10, b = 5;
 let c = a > b? a : b; // value of c would be 10
 let d = a > b? b : a; // value of d would be 5
 
+// Loop 
+
+// while
+
+let i = 0;
+
+while(i<5){
+    console.log(i);
+    i++;
+};
+
+// do while
+
+do{
+    console.log(i)
+    i++;
+}while(i<10);
+
+// for
+for (i=0; i<10; i++){
+    console.log(i)
+}
+
+// break
+for (i=0; i<10; i++){
+    if (i==9) break;
+    console.log(i)
+}
+
+// continue
+for (i=0; i<10; i++){
+    if (i%2==0) continue;
+    console.log(i)
+}
