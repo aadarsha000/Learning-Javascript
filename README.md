@@ -63,3 +63,7 @@
 
 9. #### Coding Style
 
+## Objects: the basics
+
+1. #### Objects
+An object can be created with figure brackets {…} with an optional list of properties. A property is a “key: value” pair, where key is a string (also called a “property name”), and value can be anything.
