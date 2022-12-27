@@ -43,6 +43,7 @@
 
 4. #### Operators
     Javascript operators are:
+    
     i. Arithmetic Operators
     ii. Comparison Operators
     iii. Logical Operators
