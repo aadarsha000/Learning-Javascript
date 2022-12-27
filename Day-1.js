@@ -77,13 +77,13 @@ console.log(typeof(num1))
 console.log(typeof(str))
 
 // increment and decrement
-a=1;
-b=1;
-a++ // increment
-a-- // decrement
+let aa=1;
+let ba=1;
+aa++ // increment
+aa-- // decrement
 
-c = ++a
-d = b++
+c = ++aa
+d = ba++
 console.log(c,d)
 
 // operator in javascript
