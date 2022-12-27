@@ -42,12 +42,12 @@
 
 
 4. #### Operators
-i. Arithmetic Operators
-ii. Comparison Operators
-iii. Logical Operators
-iv. Assignment Operators
-v. Conditional Operators
-vi. Ternary Operator
+    i. Arithmetic Operators
+    ii. Comparison Operators
+    iii. Logical Operators
+    iv. Assignment Operators
+    v. Conditional Operators
+    vi. Ternary Operator
 5. #### Conditional Branching
 6. #### Logical Operators
 7. #### Loops
