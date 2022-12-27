@@ -66,3 +66,22 @@ alert(person.age)
 alert(person.gender)
 alert(person.alive)
 
+// Type conversion 
+let abc = '123'
+let num = Number(abc)
+console.log(typeof(abc))
+console.log(typeof(num))
+let num1 = 564
+let str = String(num1)
+console.log(typeof(num1))
+console.log(typeof(str))
+
+// increment and decrement
+a=1;
+b=1;
+a++ // increment
+a-- // decrement
+
+c = ++a
+d = b++
+console.log(c,d)
