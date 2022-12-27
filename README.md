@@ -57,4 +57,4 @@
 # Day-2
 
 7. #### Function
-    Functions are the main “building blocks” of the program. They allow the code to be called many times without repetition.
+    Functions are the main “building blocks” of the program. They allow the code to be called many times without repetition. 
