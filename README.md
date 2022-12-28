@@ -67,3 +67,23 @@
 
 1. #### Objects
 An object can be created with figure brackets {…} with an optional list of properties. A property is a “key: value” pair, where key is a string (also called a “property name”), and value can be anything.
+
+2. #### Object references and copying
+    A variable assigned to an object stores not the object itself, but its “address in memory” – in other words “a reference” to it.
+    When an object variable is copied, the reference is copied, but the object itself is not duplicated.
+
+    Two objects are equal only if they are the same object.
+
+    For instance, here a and b reference the same object, thus they are equal:
+
+    let a = {};
+    let b = a; // copy the reference
+
+    alert( a == b ); // true, both variables reference the same object
+    alert( a === b ); // true
+    And here two independent objects are not equal, even though they look alike (both are empty):
+
+    let a = {};
+    let b = {}; // two independent objects
+
+    alert( a == b ); // false
