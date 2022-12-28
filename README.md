@@ -81,10 +81,22 @@ An object can be created with figure brackets {…} with an optional list of pro
 
     alert( a == b ); // true, both variables reference the same object
     alert( a === b ); // true
-    
+
     And here two independent objects are not equal, even though they look alike (both are empty):
 
     let a = {};
     let b = {}; // two independent objects
 
     alert( a == b ); // false
+
+
+    We can  use the method Object.assign to clone the object
+
+        The syntax is:
+
+        Object.assign(dest, ...sources)
+
+        The first argument dest is a target object.
+        Further arguments is a list of source objects.
+
+    The call structuredClone(object) clones the object with all nested properties.
