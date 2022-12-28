@@ -81,6 +81,7 @@ An object can be created with figure brackets {…} with an optional list of pro
 
     alert( a == b ); // true, both variables reference the same object
     alert( a === b ); // true
+    
     And here two independent objects are not equal, even though they look alike (both are empty):
 
     let a = {};
