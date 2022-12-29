@@ -151,3 +151,16 @@
 
 // calculator.read()
 // console.log(calculator.sum()) // show the sum of a + b
+
+// Constructor, operator "new"
+
+function User(name){
+    this.name = name,
+    this.isAdmin = false
+}
+
+let user = new User("jack")
+
+console.log(user.name)  // Jack
+console.log(user.isAdmin) // false
+
