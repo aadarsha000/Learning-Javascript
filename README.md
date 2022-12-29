@@ -100,3 +100,7 @@ An object can be created with figure brackets {…} with an optional list of pro
         Further arguments is a list of source objects.
 
     The call structuredClone(object) clones the object with all nested properties.
+
+3. #### Object methods, "this"
+    The value of this is defined at run-time.
+    When a function is declared, it may use this, but that this has no value until the function is called.
