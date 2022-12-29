@@ -136,3 +136,18 @@
     // console.log(users.sizes.height) // height = 185
 
     // console.log(clone.sizes.height) // height = 200
+
+// javascript object 'this'
+
+// let calculator = {
+//     read(){
+//         this.a = +prompt("vlaue of a", 0);
+//         this.b = +prompt("value of b", 0)
+//     },
+//     sum(){
+//         return this.a + this.b;
+//     }
+// }
+
+// calculator.read()
+// console.log(calculator.sum()) // show the sum of a + b
