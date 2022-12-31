@@ -20,10 +20,31 @@
     /* Backticks, however, allow us to embed any expression 
     into the string, by wrapping it in ${…} */
 
-    // function sum(a,b){
-    //     return a + b
-    // }
+        // function sum(a,b){
+        //     return a + b
+        // }
 
-    // console.log(`1 + 2 = ${sum(1,2)}`) // 1 + 2 = 3
+        // console.log(`1 + 2 = ${sum(1,2)}`) // 1 + 2 = 3
 
-    
+    /* Another advantage of using backticks is that 
+    they allow a string to span multiple lines: */
+
+        // let desc = ` hello i am aadarsha.
+        //             i am from itahari sunsari.
+        //             currently studing bsccsit 6 sem.`
+
+        // console.log(desc)
+
+    /* all special characters start with a backslash character \. It is also called an “escape character”.
+    Because it’s so special, if we need to show an actual backslash \ within the string, we need to double it: */
+
+        // console.log('i am \\')
+        // console.log('i\'m aadarsha karki')
+
+    // length of string
+        // let str = "Hello, How are you"
+        // console.log(str.length)
+
+    // changing case of string 
+        // console.log(str.toLowerCase())
+        // console.log(str.toUpperCase())
