@@ -104,3 +104,30 @@ An object can be created with figure brackets {…} with an optional list of pro
 3. #### Object methods, "this"
     The value of this is defined at run-time.
     When a function is declared, it may use this, but that this has no value until the function is called.
+
+4. #### Numbers
+    In modern JavaScript, there are two types of numbers:
+    1.  Regular numbers in JavaScript are stored in 64-bit format
+    2.  BigInt numbers represent integers of arbitrary length. They are sometimes needed because a regular integer number can’t safely exceed (253-1) or be less than -(253-1)
+
+    ######  toString(base)
+    The method num.toString(base) returns a string representation of num in the numeral system with the given base.
+
+    For example:
+
+    let num = 255;
+
+    alert( num.toString(16) );  // ff
+    alert( num.toString(2) );   // 11111111
+
+    ###### Rounding
+    There are several built-in functions for rounding:
+
+    Math.floor
+        Rounds down: 3.1 becomes 3, and -1.1 becomes -2.
+    Math.ceil
+        Rounds up: 3.1 becomes 4, and -1.1 becomes -1.
+    Math.round
+        Rounds to the nearest integer: 3.1 becomes 3, 3.6 becomes 4, the middle case: 3.5 rounds up to 4 too.
+    Math.trunc (not supported by Internet Explorer)
+        Removes anything after the decimal point without rounding: 3.1 becomes 3, -1.1 becomes -1.
