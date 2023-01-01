@@ -48,3 +48,39 @@
     // changing case of string 
         // console.log(str.toLowerCase())
         // console.log(str.toUpperCase())
+
+// Arrays 
+    let arr = [7, 8, 6, 3 ,9]
+
+    // add element to end
+        // arr.push(4)
+        // console.log(arr)
+    // add elemrnt tto firt
+        // arr.unshift(1)
+        // console.log(arr)
+    // remove element from last 
+        // arr.pop()
+        // console.log(arr)
+    // remove elemnt from first
+        // arr.shift()
+        // console.log(arr)
+
+    // loop in array
+        // for (let num of arr){
+        //     console.log(num)
+        // }
+
+
+    // splice array is used to delete element in array 
+        // syntax array.splice(start, no.of element to delete from start, elem1,..., elemN)
+        // elem1..elemN is used to replace delete element if we want to replace
+        // arr.splice(2,3)
+        // arr.splice(0,1,3)
+        // console.log(arr)
+
+
+    // array slice method
+        // console.log(arr.slice(0,3))
+    
+
+    //
