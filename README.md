@@ -131,3 +131,29 @@ An object can be created with figure brackets {…} with an optional list of pro
         Rounds to the nearest integer: 3.1 becomes 3, 3.6 becomes 4, the middle case: 3.5 rounds up to 4 too.
     Math.trunc (not supported by Internet Explorer)
         Removes anything after the decimal point without rounding: 3.1 becomes 3, -1.1 becomes -1.
+
+# Day-3
+
+5. #### Strings
+
+  ######    Quotes
+    Strings can be enclosed within either single quotes, double quotes or backticks.
+    Single and double quotes are essentially the same. Backticks, however, allow us to embed any expression into the string, by wrapping it in ${…}:
+
+        function sum(a, b) {
+        return a + b;
+        }
+
+        alert(`1 + 2 = ${sum(1, 2)}.`);
+    
+    Another advantage of using backticks is that they allow a string to span multiple lines:
+
+    ######  String length
+    The length property has the string length:
+        alert( `My\n`.length ); // 3
+    
+    ######  Changing the case
+    Methods toLowerCase() and toUpperCase() change the case:
+
+    alert( 'Interface'.toUpperCase() ); // INTERFACE
+    alert( 'Interface'.toLowerCase() ); // interface
