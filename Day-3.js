@@ -83,4 +83,34 @@
         // console.log(arr.slice(0,3))
     
 
-    //
+// Map
+    // it is similar to object but it has key of any type
+
+    // map Methods and Properties
+
+        // let map = new Map() // create map
+
+        // map.set('1', 'str1') // insert data
+
+        // map.set(1, 'num1')
+
+        // map.set(true, 'bool1')
+
+        // console.log(map.get('1')) // get data with key '1' 
+        // console.log(map.get(1))
+        // console.log(map.get(true))
+        // console.log(map.size) // return size
+
+        // console.log(map)
+
+    // Iteration over map
+        //     let recipeMap = new Map([
+        //         ['cucumber', 500],
+        //         ['tomatoes', 350],
+        //         ['onion',    50]
+        //     ]);
+
+        //    recipeMap.forEach((value, key, map)=>{
+        //     console.log(`${key}:${value}`)
+        //     console.log(map)
+        //    })
