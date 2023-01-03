@@ -157,3 +157,45 @@ An object can be created with figure brackets {…} with an optional list of pro
 
     alert( 'Interface'.toUpperCase() ); // INTERFACE
     alert( 'Interface'.toLowerCase() ); // interface
+
+6.  #### Array
+
+    Arrays provide a lot of methods. To make things easier,
+
+    ###### Add/remove items
+
+        arr.push(...items) – adds items to the end,
+        arr.pop() – extracts an item from the end,
+        arr.shift() – extracts an item from the beginning,
+        arr.unshift(...items) – adds items to the beginning.
+
+    ###### splice
+
+        The arr.splice method is a swiss army knife for arrays. It can do everything: insert, remove and replace elements.
+
+        The syntax is:
+
+        arr.splice(start[, deleteCount, elem1, ..., elemN])
+
+    ###### slice
+        The method arr.slice is much simpler than similar-looking arr.splice.
+
+        The syntax is:
+
+        arr.slice([start], [end])
+
+    ###### concat
+        The method arr.concat creates a new array that includes values from other arrays and additional items.
+
+        The syntax is:
+
+        arr.concat(arg1, arg2...)
+
+    ###### Iterate: forEach
+        The arr.forEach method allows to run a function for every element of the array.
+
+        The syntax:
+
+        arr.forEach(function(item, index, array) {
+        // ... do something with item
+        });
